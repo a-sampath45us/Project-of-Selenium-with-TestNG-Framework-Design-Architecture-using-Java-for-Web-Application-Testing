@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-30T17:20:11 GMT+05:30" name="Suite" finished-at="2024-08-30T17:20:43 GMT+05:30" duration-ms="32249">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:SamSelFrame.tests.ErrorValidationsTest@6cd24612]" name="loginErrorValidation" class="SamSelFrame.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTests.submitOrder(java.util.HashMap)[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" name="submitOrder" class="SamSelFrame.tests.SubmitOrderTests"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-08-30T17:20:11 GMT+05:30" name="Error Validations Test" finished-at="2024-08-30T17:20:31 GMT+05:30" duration-ms="20103">
+      <class name="SamSelFrame.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SamSelFrame.tests.ErrorValidationsTest@6cd24612]" started-at="2024-08-30T17:20:11 GMT+05:30" name="launchApplication" finished-at="2024-08-30T17:20:20 GMT+05:30" duration-ms="9393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:SamSelFrame.tests.ErrorValidationsTest@6cd24612]" started-at="2024-08-30T17:20:20 GMT+05:30" name="loginErrorValidation" finished-at="2024-08-30T17:20:22 GMT+05:30" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SamSelFrame.tests.ErrorValidationsTest@6cd24612]" started-at="2024-08-30T17:20:22 GMT+05:30" name="tearDown" finished-at="2024-08-30T17:20:22 GMT+05:30" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SamSelFrame.tests.ErrorValidationsTest@6cd24612]" started-at="2024-08-30T17:20:22 GMT+05:30" name="launchApplication" finished-at="2024-08-30T17:20:26 GMT+05:30" duration-ms="4084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:SamSelFrame.tests.ErrorValidationsTest@6cd24612]" started-at="2024-08-30T17:20:26 GMT+05:30" name="productErrorValidation" finished-at="2024-08-30T17:20:31 GMT+05:30" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SamSelFrame.tests.ErrorValidationsTest@6cd24612]" started-at="2024-08-30T17:20:31 GMT+05:30" name="tearDown" finished-at="2024-08-30T17:20:31 GMT+05:30" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SamSelFrame.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-08-30T17:20:11 GMT+05:30" name="Submit Order Test" finished-at="2024-08-30T17:20:43 GMT+05:30" duration-ms="32249">
+      <class name="SamSelFrame.tests.SubmitOrderTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" started-at="2024-08-30T17:20:11 GMT+05:30" name="launchApplication" finished-at="2024-08-30T17:20:20 GMT+05:30" duration-ms="9084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" started-at="2024-08-30T17:20:20 GMT+05:30" name="submitOrder" data-provider="getData" finished-at="2024-08-30T17:20:27 GMT+05:30" duration-ms="7298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=12345678Sa*, product=ZARA COAT 3, email=samusa@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" started-at="2024-08-30T17:20:27 GMT+05:30" name="tearDown" finished-at="2024-08-30T17:20:28 GMT+05:30" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" started-at="2024-08-30T17:20:28 GMT+05:30" name="launchApplication" finished-at="2024-08-30T17:20:34 GMT+05:30" duration-ms="6118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" started-at="2024-08-30T17:20:34 GMT+05:30" name="submitOrder" data-provider="getData" finished-at="2024-08-30T17:20:38 GMT+05:30" duration-ms="4763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=12345678Sa*, product=ADIDAS ORIGINAL, email=samusa1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" started-at="2024-08-30T17:20:38 GMT+05:30" name="tearDown" finished-at="2024-08-30T17:20:39 GMT+05:30" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" started-at="2024-08-30T17:20:39 GMT+05:30" name="launchApplication" finished-at="2024-08-30T17:20:42 GMT+05:30" duration-ms="3560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" started-at="2024-08-30T17:20:42 GMT+05:30" name="orderHistoryTest" finished-at="2024-08-30T17:20:43 GMT+05:30" depends-on-methods="SamSelFrame.tests.SubmitOrderTests.submitOrder" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SamSelFrame.tests.SubmitOrderTests@723ca036]" started-at="2024-08-30T17:20:43 GMT+05:30" name="tearDown" finished-at="2024-08-30T17:20:43 GMT+05:30" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SamSelFrame.tests.SubmitOrderTests -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
